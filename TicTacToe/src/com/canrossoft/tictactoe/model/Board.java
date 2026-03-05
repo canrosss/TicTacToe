@@ -55,12 +55,12 @@ public class Board {
             System.out.println("Robotnik gana!");
         }
 
-        if(positions[1][0]=='M' && positions[1][2]=='M' && positions[1][3] == 'M'){
+        if(positions[1][0]=='M' && positions[1][1]=='M' && positions[1][2] == 'M'){
             isPlaying = false;
             System.out.println("Robotnik gana!");
         }
 
-        if(positions[0][0]=='M' && positions[0][2]=='M' && positions[0][3] == 'M'){
+        if(positions[0][0]=='M' && positions[1][1]=='M' && positions[2][2] == 'M'){
             isPlaying = false;
             System.out.println("Robotnik gana!");
         }
