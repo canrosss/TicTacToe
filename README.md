@@ -1,6 +1,6 @@
 # TicTacToe
 
-Proyecto de prueba creado por **Charlie** para retomar el aprendizaje de Java.
+Proyecto de prueba creado para retomar el aprendizaje de Java.
 
 TicTacToe es un juego de Tres en Raya para consola donde un jugador humano se enfrenta a una IA en un tablero de 3x3.
 
