@@ -1,0 +1,16 @@
+[
+    {
+        "partida":1,
+        "fecha":"04/03/2026",
+        "ganador":"Human",
+        "totalTurnos":7,
+        "empate":false
+    },
+    {
+        "partida":1,
+        "fecha":"04/03/2026",
+        "ganador":"Robnik",
+        "totalTurnos":2,
+        "empate":false
+    }
+]
