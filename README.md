@@ -48,5 +48,5 @@ src/com/canrossoft/tictactoe/
 - `.` — casilla vacia
 
 ## Estado actual
-
+En desarrollo - [Más información](https://canrosss.github.io/codex/TicTacToe/)
 Version `0.1` — proyecto en desarrollo activo. Consulta el [CHANGELOG.md](CHANGELOG.md) para ver el historial de cambios y los issues conocidos.
