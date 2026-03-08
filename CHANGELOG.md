@@ -1,41 +1,11 @@
-# Changelog
-
-Todos los cambios notables de este proyecto seran documentados en este archivo.
-
-El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
-
----
-
-## [Unreleased]
-
-### Fixed
-- `Board.java` — Corregidos indices fuera de rango (`ArrayIndexOutOfBoundsException`) en `checkBoard()`:
-  - `positions[1][3]` corregido a `positions[1][1]` para verificar la segunda fila completa.
-  - `positions[0][3]` corregido — la condicion ahora verifica la diagonal principal (`positions[0][0]`, `positions[1][1]`, `positions[2][2]`).
-
-### Known Issues
-- `checkBoard()` solo cubre 2 de las 8 combinaciones ganadoras posibles (faltan filas 2 y 3, las 3 columnas y la diagonal inversa).
-- La IA puede sobreescribir posiciones ya ocupadas (sin verificacion de colision).
-- El juego crashea si el jugador ingresa texto en lugar de un numero entero (`Scanner.nextInt()`).
-- No hay deteccion de empate cuando el tablero esta lleno.
-- La condicion en `Player.markPos()` verifica la misma condicion dos veces (logica redundante).
-
----
-
-## [0.1.0] — 2025-03-25
-
-### Added
-- Tablero de juego 3x3 con visualizacion en consola (`Board.java`).
-- Modelo de jugador con marca configurable y verificacion basica de posicion (`Player.java`).
-- Jugador IA basico con movimientos aleatorios (`IA.java`).
-- Interfaz de consola con efecto de texto tipo maquina de escribir (`ConsoleUI.java`, `Teletype.java`).
-- Flujo de juego principal: turno del jugador humano seguido del turno de la IA (`TicTacToe.java`).
-- Deteccion parcial de victoria para la IA (primera fila) y el jugador humano (primera fila).
-- Solicitud del nombre del jugador al inicio de la partida.
-
----
-
-## [0.0.1] — 2025-03-25
-
-### Added
-- Commit inicial del proyecto con estructura base de paquetes (`model`, `ai`, `ui`).
+- Fixes: Marzo 07 2026 - Se solucionan los conflictos de README.md entre las branches (2026-03-07)
+- Fixes: Marzo 07 2026 - Se solucionan algunos bugs relacionados ademas, se prueban que ya estan funcionando por lo que la rama termina (2026-03-07)
+- Fixes: Marzo 07 2026 - Se solucionan algunos bugs relacionados en Board.java en la funcion initializeBoard() checkBoard() y corregir los indices (2026-03-07)
+- Update README.md (2026-03-07)
+- Adding scoreManager.java this class will manage the json and save the points and games historial (2026-03-05)
+- Adding scores.json this json will save the points and games historial (2026-03-04)
+- Adding few changes for feature/score-syste, this is a branch where we are gonna work on score system based on json (2026-03-04)
+- Update README.md (2026-03-04)
+- Update README.md (2026-03-04)
+- Actualizaciones - Fusion desde el Mac March 25 2025 (2025-03-25)
+- first commit (2025-03-25)
